@@ -24,9 +24,9 @@ function App() {
   return (
     <div className="bg-black  h-screen flex items-center justify-center text-white">
 
-      <div className="h-[42rem]  w-[23rem] rounded-2xl border-4 border-gray-500 flex justify-center align-center items-center">
+      <div className="h-[39rem]  w-[19rem] rounded-2xl border-4 border-gray-500 flex justify-center align-center items-center">
 
-        <div className="h-[41rem]  w-[22rem] rounded-2xl border-2 border-gray-500 ">
+        <div className="h-[38rem]  w-[18rem] rounded-2xl border-2 border-gray-500 ">
 
           <div className="m-5 text-5xl">
             <h1 className="text-yellow-400 ">Measure </h1>
@@ -49,16 +49,16 @@ function App() {
           </div>
 
 
-          <div className="flex justify-center align-center mt-10">
+          <div className="flex justify-center align-center mt-5">
 
 
 
             {running ? (
-              <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded" onClick={() => setRunning(false)}>Stop</button>
+              <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-1 px-4 rounded" onClick={() => setRunning(false)}>Stop</button>
             ) : (
-              <button className="bg-yellow-400 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded" onClick={() => setRunning(true)}>Start</button>
+              <button className="bg-yellow-400 hover:bg-yellow-600 text-black font-semibold py-1 px-4 rounded" onClick={() => setRunning(true)}>Start</button>
             )}
-            <button className="bg-gray-700  hover:bg-gray-800 text-white  font-semibold py-2 px-4 rounded ml-4" onClick={() => setTime(0)}>Reset</button>
+            <button className="bg-gray-700  hover:bg-gray-800 text-white  font-semibold py-1 px-4 rounded ml-4" onClick={() => setTime(0)}>Reset</button>
 
           </div>
 
