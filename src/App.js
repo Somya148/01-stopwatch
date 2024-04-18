@@ -24,9 +24,9 @@ function App() {
   return (
     <div className="bg-black  h-screen flex items-center justify-center text-white">
 
-      <div className="h-[39rem]  w-[19rem] rounded-2xl border-4 border-gray-500 flex justify-center align-center items-center">
+      <div className="h-[26rem]  w-[19rem] rounded-2xl border-4 border-gray-500 flex justify-center align-center items-center">
 
-        <div className="h-[38rem]  w-[18rem] rounded-2xl border-2 border-gray-500 ">
+        <div className="h-[25rem]  w-[18rem] rounded-2xl border-2 border-gray-500 ">
 
           <div className="m-5 text-5xl">
             <h1 className="text-yellow-400 ">Measure </h1>
